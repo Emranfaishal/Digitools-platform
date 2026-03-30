@@ -4,6 +4,7 @@ import BannerFour from './components/banner-four/BannerFour'
 import BannerSix from './components/banner-six/BannerSix'
 import BannerTwo from './components/banner-two/BannerTwo'
 import Banner from './components/banner/Banner'
+import Footer from './components/footer/Footer'
 import Nav from './components/nav/Nav'
 
 function App() {
@@ -13,10 +14,11 @@ function App() {
       <Nav></Nav>
       <Banner></Banner>
       <BannerTwo></BannerTwo>
-      
+
       <BannerFour></BannerFour>
       <BannerFive></BannerFive>
       <BannerSix></BannerSix>
+      <Footer></Footer>
     </>
   )
 }
