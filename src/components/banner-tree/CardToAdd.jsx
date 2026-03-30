@@ -1,9 +1,18 @@
 import React, { useState } from 'react';
 
-const CardToAdd = ({ card }) => {
+const CardToAdd = ({ card, cardTo, setCardTo }) => {
     const [buy, setBuy] = useState(false);
+    // console.log(cardTo);
     const handleBuy = () => {
+        // console.log(cardTo);
+        // console.log(card);
         setBuy(true);
+        setCardTo([...cardTo, card]);
+
+        const isFond=cardTo.find(item=>item.id===card.id);
+        if(isFond){
+            
+        }
     }
     return (
         <div className='shadow-lg rounded-lg mt-10'>
@@ -41,7 +50,7 @@ const CardToAdd = ({ card }) => {
                         </li>
                     </ul>
                     <button onClick={handleBuy}
-                        className='btn mt-5 w-full rounded-full bg-gradient-to-r from-indigo-600 to-purple-600'>{buy ? "Now Add" : "Buy Add"}</button>
+                        className='btn mt-5 w-full rounded-full bg-linear-to-r from-indigo-600 to-purple-600'>{buy ? "Now Add" : "Buy Add"}</button>
                 </div>
             </div>
         </div>
