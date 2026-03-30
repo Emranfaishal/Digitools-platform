@@ -14,7 +14,7 @@ const BannerFive = () => {
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10'>
 
 
-                        <div className="card w-96 bg-base-200 shadow-sm">
+                        <div className="card w-full bg-base-200 shadow-sm">
                             <div className="card-body">
                                 <div>
                                     <h2 className="text-3xl font-bold">Starter</h2>
@@ -46,7 +46,7 @@ const BannerFive = () => {
                         </div>
 
 
-                        <div className="card w-96 bg-linear-to-t from-indigo-500 to-indigo-500 shadow-sm">
+                        <div className="card w-full bg-linear-to-t from-indigo-500 to-indigo-500 shadow-sm">
                             <div className="card-body text-white">
                                 <div>
                                     <h2 className="text-3xl font-bold">Pro</h2>
@@ -86,7 +86,7 @@ const BannerFive = () => {
                         </div>
 
 
-                        <div className="card w-96 bg-base-200 shadow-sm">
+                        <div className="card w-full bg-base-200 shadow-sm">
                             <div className="card-body">
                                 <div>
                                     <h2 className="text-3xl font-bold">Enterprise</h2>
