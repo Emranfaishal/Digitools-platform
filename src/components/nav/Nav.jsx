@@ -45,7 +45,7 @@ const Nav = () => {
                             </div>
                         </div>
                     </div>
-                    <a href="">Login</a>
+                    <a className='btn rounded-full text-bold'>Login</a>
                     <a className="btn rounded-2xl text-white font-bold  bg-linear-to-t from-sky-500 to-indigo-500">Get Started</a>
                 </div>
             </div>

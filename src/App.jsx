@@ -1,4 +1,5 @@
 import './App.css'
+import BannerFive from './components/banner-five/BannerFive'
 import BannerFour from './components/banner-four/BannerFour'
 import BannerTwo from './components/banner-two/BannerTwo'
 import Banner from './components/banner/Banner'
@@ -11,7 +12,8 @@ function App() {
       <Nav></Nav>
       <Banner></Banner>
       <BannerTwo></BannerTwo>
-      <BannerFour>git </BannerFour>
+      <BannerFour></BannerFour>
+      <BannerFive></BannerFive>
     </>
   )
 }
