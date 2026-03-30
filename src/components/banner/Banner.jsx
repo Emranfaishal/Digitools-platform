@@ -23,7 +23,7 @@ const Banner = () => {
                             <FaRegPlayCircle /> Watch Demo</button>
                     </div>
                 </div>
-                <div className='ml-50'>
+                <div className='lg:ml-50'>
                     <div className='hover-3d'>
                         <figure className="rounded-2xl"><img src={img} alt="" /></figure>
 
