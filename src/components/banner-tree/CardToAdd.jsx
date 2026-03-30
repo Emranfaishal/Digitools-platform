@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const CardToAdd = ({ card, cardTo, setCardTo }) => {
     const [buy, setBuy] = useState(false);
@@ -7,12 +8,15 @@ const CardToAdd = ({ card, cardTo, setCardTo }) => {
         // console.log(cardTo);
         // console.log(card);
         setBuy(true);
-        setCardTo([...cardTo, card]);
+        const isFond = cardTo.find(item => item.id === card.id);
+        // console.log(isFond);
+        if (isFond) {
+            toast.error("Item already in card !");
+            return;
 
-        const isFond=cardTo.find(item=>item.id===card.id);
-        if(isFond){
-            
         }
+        setCardTo([...cardTo, card]);
+        toast.success("Item to add success")
     }
     return (
         <div className='shadow-lg rounded-lg mt-10'>

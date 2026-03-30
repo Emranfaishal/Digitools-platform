@@ -1,28 +1,30 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const Tools = ({ cardTo, setCardTo }) => {
     // console.log(cardTo);
     const totalPrice = cardTo.reduce((sum, item) => sum + item.price, 0);
     const Checkout = () => {
         setCardTo([]);
+        toast.error("Proceed to Checkout All!")
     }
     const deleteBtn = (item) => {
         const filteredArray = cardTo.filter(c => c.id !== item.id);
         setCardTo(filteredArray);
+        toast.success("Item to deleted!")
 
     }
 
     return (
-        <div className='container mx-auto'>
-            <div className='text-center space-y-3'>
-                <h1 className='text-6xl font-bold'>Premium Digital Tools</h1>
-                <p className='text-[#627382]'>Choose from our curated collection of premium digital products designed <br />to boost your productivity and creativity.</p>
-            </div>
+        <div className='mt-20 container mx-auto'>
             <div className='shadow-lg rounded-lg mt-10 p-20'>
                 <h2 className='text-2xl font-bold'>Your Cart</h2>
 
                 {
-                    cardTo.length === 0 ? <div> card is emtry</div> :
+                    cardTo.length === 0 ?
+                        <div className='text-3xl font-bold text-center'>
+                            <h2>card is emtry</h2>
+                        </div> :
                         <>
                             <div>
                                 {

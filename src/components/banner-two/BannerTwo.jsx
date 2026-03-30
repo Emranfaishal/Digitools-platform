@@ -1,4 +1,5 @@
 import React from 'react';
+import BannerOne from './BannerOne';
 
 const BannerTwo = () => {
     return (
@@ -17,8 +18,9 @@ const BannerTwo = () => {
                     <p className='text-white mt-2'>Rating</p>
                 </div>
             </div>
-
+            <BannerOne></BannerOne>
         </div>
+
     );
 };
 
