@@ -43,6 +43,7 @@ const Footer = () => {
                     </div>
                 </nav>
             </footer>
+            <hr/>
             <FooterOne></FooterOne>
         </div>
     );
