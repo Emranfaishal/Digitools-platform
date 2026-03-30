@@ -8,6 +8,7 @@ const CardToAdd = ({ card, cardTo, setCardTo }) => {
         // console.log(cardTo);
         // console.log(card);
         setBuy(true);
+
         const isFond = cardTo.find(item => item.id === card.id);
         // console.log(isFond);
         if (isFond) {
@@ -19,7 +20,7 @@ const CardToAdd = ({ card, cardTo, setCardTo }) => {
         toast.success("Item to add success")
     }
     return (
-        <div className='shadow-lg rounded-lg mt-10'>
+        <div className='shadow-lg rounded-lg mt-10 hover-3d'>
 
             <div className='p-10 space-y-3'>
                 <div className='flex justify-between  items-center'>

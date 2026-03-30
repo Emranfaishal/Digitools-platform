@@ -23,7 +23,7 @@ const Tools = ({ cardTo, setCardTo }) => {
                 {
                     cardTo.length === 0 ?
                         <div className='text-3xl font-bold text-center'>
-                            <h2>card is emtry</h2>
+                            <h2>Card Is Emtry !!!</h2>
                         </div> :
                         <>
                             <div>
@@ -50,7 +50,7 @@ const Tools = ({ cardTo, setCardTo }) => {
                                         </div>)
 
                                 }
-                                <div className='flex justify-between items-center  rounded-lg bg-gray-300 mt-10 p-5'>
+                                <div className='flex justify-between items-center  rounded-lg bg-gray-50 mt-10 p-5'>
                                     <div className='text-2xl font-bold'>total</div>
                                     <div className='text-2xl font-bold'>$ {totalPrice}</div>
                                 </div>
