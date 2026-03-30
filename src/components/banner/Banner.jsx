@@ -15,8 +15,12 @@ const Banner = () => {
                         software—all <br /> in one place. Start creating faster today. <br /> Explore Products
                     </p>
                     <div className='flex gap-4'>
-                        <button class="btn btn-active btn-primary bg-linear-to-t from-sky-500 to-indigo-500 rounded-full">Explore Products</button>
-                        <button class="btn btn-outline btn-primary rounded-full"> <FaRegPlayCircle /> Watch Demo</button>
+                        <button 
+                        className="btn btn-active btn-primary bg-linear-to-t from-sky-500 to-indigo-500 rounded-full">Explore Products</button>
+
+                        <button
+                            className="btn btn-outline btn-primary rounded-full">
+                            <FaRegPlayCircle /> Watch Demo</button>
                     </div>
                 </div>
                 <div >

@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "Resume Builder Pro",
+        "description": "Create professional resumes with modern templates and ATS optimization.",
+        "price": 9.99,
+        "period": "monthly",
+        "tag": "popular",
+        "tagType": "popular",
+        "features": [
+            "100+ templates",
+            "ATS optimization",
+            "Export to PDF"
+        ],
+        "icon": "📄"
+    },
+    {
+        "id": 2,
+        "name": "AI Content Writer",
+        "description": "Generate high-quality blog posts and marketing content using AI.",
+        "price": 19.99,
+        "period": "monthly",
+        "tag": "best seller",
+        "tagType": "best seller",
+        "features": [
+            "Unlimited generation",
+            "SEO tools",
+            "Multi-language"
+        ],
+        "icon": "✍️"
+    },
+    {
+        "id": 3,
+        "name": "Portfolio Website Kit",
+        "description": "Easily build a modern portfolio website without coding.",
+        "price": 49.99,
+        "period": "one-time",
+        "tag": "new",
+        "tagType": "new",
+        "features": [
+            "Drag & drop builder",
+            "Responsive design",
+            "Custom domain"
+        ],
+        "icon": "🌐"
+    },
+    {
+        "id": 4,
+        "name": "Online Course Platform",
+        "description": "Create and sell courses with built-in tools and analytics.",
+        "price": 99.99,
+        "period": "yearly",
+        "tag": "popular",
+        "tagType": "popular",
+        "features": [
+            "Video hosting",
+            "Student tracking",
+            "Payment system"
+        ],
+        "icon": "🎓"
+    },
+    {
+        "id": 5,
+        "name": "Graphic Design Toolkit",
+        "description": "Access thousands of design templates and creative assets.",
+        "price": 29.99,
+        "period": "yearly",
+        "tag": "best seller",
+        "tagType": "best seller",
+        "features": [
+            "10k+ assets",
+            "Editable templates",
+            "Commercial license"
+        ],
+        "icon": "🎨"
+    },
+    {
+        "id": 6,
+        "name": "Social Media Scheduler",
+        "description": "Schedule and manage posts across all social platforms.",
+        "price": 14.99,
+        "period": "monthly",
+        "tag": "new",
+        "tagType": "new",
+        "features": [
+            "Auto-posting",
+            "Analytics",
+            "Multi-platform"
+        ],
+        "icon": "📅"
+    },
+    {
+        "id": 7,
+        "name": "E-commerce Starter Pack",
+        "description": "Launch your online store with essential tools and features.",
+        "price": 79.99,
+        "period": "one-time",
+        "tag": "popular",
+        "tagType": "popular",
+        "features": [
+            "Product management",
+            "Secure checkout",
+            "Inventory system"
+        ],
+        "icon": "🛒"
+    },
+    {
+        "id": 8,
+        "name": "Cloud Storage Plus",
+        "description": "Secure cloud storage with fast access and sharing features.",
+        "price": 5.99,
+        "period": "monthly",
+        "tag": "best seller",
+        "tagType": "best seller",
+        "features": [
+            "1TB storage",
+            "File sharing",
+            "Encryption"
+        ],
+        "icon": "☁️"
+    },
+    {
+        "id": 9,
+        "name": "Team Collaboration Suite",
+        "description": "Collaborate with your team using chat, tasks, and file sharing.",
+        "price": 24.99,
+        "period": "monthly",
+        "tag": "popular",
+        "tagType": "popular",
+        "features": [
+            "Real-time chat",
+            "Task management",
+            "File sharing"
+        ],
+        "icon": "🤝"
+    },
+    {
+        "id": 10,
+        "name": "Email Marketing Pro",
+        "description": "Create and manage email campaigns with automation tools.",
+        "price": 39.99,
+        "period": "yearly",
+        "tag": "new",
+        "tagType": "new",
+        "features": [
+            "Email templates",
+            "Automation",
+            "Analytics"
+        ],
+        "icon": "📧"
+    }
+]

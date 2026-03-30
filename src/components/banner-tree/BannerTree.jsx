@@ -1,13 +1,14 @@
-import React from 'react';
-
-
-
-
+import Card from './Card';
+const getData = async () => {
+    const res = await fetch('/public/data.json');
+    return res.json();
+}
+const getPromise = getData();
 
 const BannerTree = () => {
     return (
-        <div>
-            <h2>tome nake vai tree</h2>
+        <div className='contain mx-auto'>
+            <Card getPromise={getPromise}></Card>
         </div>
     );
 };
