@@ -42,7 +42,7 @@ const Tools = ({ cardTo, setCardTo }) => {
                                                     </div>
                                                     <div>
                                                         <p className='text-xl font-bold'>{item.name}</p>
-                                                        <span className='text-xl font-bold'>{item.price}</span>
+                                                        <span className='text-xl font-bold'>$ {item.price}</span>
                                                     </div>
                                                 </div>
                                                 <div>
