@@ -2,7 +2,7 @@ Project Name :  DigiTools Platform
 
 GitHub Repository Link : https://github.com/Emranfaishal/Digitools-platform
 
-Live Site Link: phenomenal-faun-79a5e6.netlify.app
+Live Site Link: https://phenomenal-faun-79a5e6.netlify.app/
 
 
 In this project, I built a React-based platform where multiple digital tools are displayed in a clean and organized way.
