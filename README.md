@@ -1,5 +1,9 @@
 Project Name :  DigiTools Platform
 
+GitHub Repository Link : https://github.com/Emranfaishal/Digitools-platform
+
+Live Site Link: 
+
 
 In this project, I built a React-based platform where multiple digital tools are displayed in a clean and organized way.
 
