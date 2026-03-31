@@ -43,7 +43,7 @@ const Footer = () => {
                     </div>
                 </nav>
             </footer>
-            <hr/>
+            <hr className='border-gray-500'/>
             <FooterOne></FooterOne>
         </div>
     );

@@ -15,7 +15,7 @@ const BannerFour = () => {
 
                     <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10'>
 
-                        <div className='card w-full bg-base-100 shadow-sm  p-20'>
+                        <div className='card w-full bg-base-100 shadow-sm  p-20 hover:-translate-y-3 duration-300 hover:shadow-xl'>
                             <div className='text-end'>
                                 <button className='btn bg-linear-to-t from-sky-500 to-indigo-500  rounded-full mb-5'>01</button>
                             </div>
@@ -27,7 +27,11 @@ const BannerFour = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='card w-full bg-base-100 shadow-sm  p-20'>
+
+                        <div className='card w-full bg-base-100 shadow-sm  p-20 hover:-translate-y-3 duration-300 hover:shadow-xl'>
+
+
+
                             <div className='text-end'>
                                 <button className='btn bg-linear-to-t from-sky-500 to-indigo-500  rounded-full mb-5'>02</button>
                             </div>
@@ -39,7 +43,7 @@ const BannerFour = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='card w-full bg-base-100 shadow-sm  p-20'>
+                        <div className='card w-full bg-base-100 shadow-sm  p-20 hover:-translate-y-3 duration-300 hover:shadow-xl'>
                             <div className='text-end'>
                                 <button className='btn bg-linear-to-t from-sky-500 to-indigo-500  rounded-full mb-5'>03</button>
                             </div>

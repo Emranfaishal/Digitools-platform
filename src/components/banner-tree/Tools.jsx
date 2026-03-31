@@ -1,4 +1,5 @@
 import React from 'react';
+import { CiShoppingCart } from "react-icons/ci";
 import { toast } from 'react-toastify';
 
 const Tools = ({ cardTo, setCardTo }) => {
@@ -22,8 +23,11 @@ const Tools = ({ cardTo, setCardTo }) => {
 
                 {
                     cardTo.length === 0 ?
-                        <div className='text-3xl font-bold text-center'>
-                            <h2>Card Is Emtry !!!</h2>
+                        <div>
+                            <div className='text-center'>
+                                <p className='text-7xl mb-4 lg:ml-160 lg:mr-160'><CiShoppingCart /></p>
+                                <h2 className='text-3xl font-bold'>Your card is empty !!!</h2>
+                            </div>
                         </div> :
                         <>
                             <div>

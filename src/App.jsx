@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import BannerFive from './components/banner-five/BannerFive'
 import BannerFour from './components/banner-four/BannerFour'
@@ -10,12 +11,14 @@ import Nav from './components/nav/Nav'
 
 function App() {
 
+  const [cardTo, setCardTo] = useState([]);
+  
   return (
     <>
-      <Nav></Nav>
+      <Nav cardTo={cardTo}></Nav>
       <Banner></Banner>
       <BannerTwo></BannerTwo>
-      <BannerTree></BannerTree>
+      <BannerTree cardTo={cardTo} setCardTo={setCardTo}></BannerTree>
       <BannerFour></BannerFour>
       <BannerFive></BannerFive>
       <BannerSix></BannerSix>

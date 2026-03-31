@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { toast } from 'react-toastify';
+import { IoMdCheckmark } from "react-icons/io";
 
 const CardToAdd = ({ card, cardTo, setCardTo }) => {
     const [buy, setBuy] = useState(false);
@@ -12,7 +13,7 @@ const CardToAdd = ({ card, cardTo, setCardTo }) => {
         const isFond = cardTo.find(item => item.id === card.id);
         // console.log(isFond);
         if (isFond) {
-            toast.error("Item already in card !");
+            toast.error("Item already added to card!");
             return;
 
         }
@@ -20,17 +21,22 @@ const CardToAdd = ({ card, cardTo, setCardTo }) => {
         toast.success("Item to add success")
     }
     return (
-        <div className='shadow-lg rounded-lg mt-10 hover-3d'>
+        <div className='shadow-lg rounded-lg mt-10 border-amber-200  hover:-translate-y-3 duration-300 hover:shadow-xl'>
 
             <div className='p-10 space-y-3'>
                 <div className='flex justify-between  items-center'>
                     <button className='btn w-15 h-15 rounded-full'>
                         <span className="text-4xl">{card.icon}</span>
                     </button>
-                    <button className='bg-blue-400 w-25 rounded-2xl ml-5'>
-                        {card.tag}
-                    </button>
 
+                    <div
+                        className={
+                            `top-6 right-6 
+                            ${card.tag == 'popular' && 'bg-[#FEF3C7] text-[#92400E]'}
+                             ${card.tag == 'best seller' && 'text-[#4F39F6] bg-purple-100'}  
+                             text-md ${card.tag == 'new' && 'bg-green-100 text-green-600'} font-semibold px-4 py-1.5 rounded-full`}>
+                        {card.tag}
+                    </div>
                 </div>
                 <div>
                     <h2 className='text-2xl font-bold'>{card.name}</h2>
@@ -54,8 +60,13 @@ const CardToAdd = ({ card, cardTo, setCardTo }) => {
                             <span>{card.features[2]}</span>
                         </li>
                     </ul>
-                    <button onClick={handleBuy}
-                        className='btn mt-5 w-full rounded-full bg-linear-to-r from-indigo-600 to-purple-600'>{buy ? "Now Add" : "Buy Add"}</button>
+                    <button
+                        onClick={handleBuy}
+                        className={`btn mt-5 text-bold w-full rounded-lg 
+                            ${buy ? "bg-green-500" : "bg-linear-to-r from-indigo-600 to-purple-600"
+                            }`} >
+                        {buy ? "Added to cart!" : "Buy Now"}
+                    </button>
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiFillSun } from "react-icons/ai";
 import { FaRegPlayCircle } from "react-icons/fa";
+import { BsArrowReturnRight } from "react-icons/bs";
 import img from '../../assets/banner.png'
 
 const Banner = () => {
@@ -16,7 +17,7 @@ const Banner = () => {
                     </p>
                     <div className='flex gap-4'>
                         <button
-                            className="btn btn-active btn-primary bg-linear-to-t from-sky-500 to-indigo-500 rounded-full">Explore Products</button>
+                            className="btn btn-active btn-primary bg-linear-to-t from-sky-500 to-indigo-500 rounded-full">Explore Products <BsArrowReturnRight /></button>
 
                         <button
                             className="btn btn-outline btn-primary rounded-full">
