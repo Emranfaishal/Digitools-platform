@@ -3,7 +3,7 @@ import Tools from './Tools'
 import React, { useState } from 'react';
 
 const getData = async () => {
-    const res = await fetch('/public/data.json');
+    const res = await fetch('/data.json');
     return res.json();
 }
 const getPromise = getData();
